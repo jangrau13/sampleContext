@@ -3,19 +3,15 @@
     "@base": "http://openlca.org/schema/v2.0/",
     "modelType": {
       "@id": "http://openlca.org/ModelType",
-      "@type": [
-        "http://www.w3.org/2000/01/rdf-schema#Class"
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#comment": [
+      "@type": "http://www.w3.org/2000/01/rdf-schema#Class",
+      "http://www.w3.org/2000/01/rdf-schema#comment":
         {
           "@value": "An enumeration of the root entity types."
-        }
-      ],
-      "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+        },
+      "http://www.w3.org/2000/01/rdf-schema#subClassOf": 
         {
           "@id": "http://openlca.org/Enumeration"
         }
-      ]
     }
   }
 }
